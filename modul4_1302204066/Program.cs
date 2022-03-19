@@ -10,6 +10,12 @@ namespace modul4_1302204066
     {
         static void Main(string[] args)
         {
+            int input1 = 13;
+            int input2 = 02;
+            int input3 = 20;
+            Penjumlahan<int> j = new Penjumlahan<int>();
+            int hasil = j.JumlahTigaAngka(input1, input2, input3);
+            Console.WriteLine("Hasil Penjumlahan = " + hasil);
         }
     }
 }
