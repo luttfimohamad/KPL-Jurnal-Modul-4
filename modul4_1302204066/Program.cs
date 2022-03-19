@@ -16,6 +16,11 @@ namespace modul4_1302204066
             Penjumlahan<int> j = new Penjumlahan<int>();
             int hasil = j.JumlahTigaAngka(input1, input2, input3);
             Console.WriteLine("Hasil Penjumlahan = " + hasil);
+            SimpleDataBase<int> simpleDataBase = new SimpleDataBase<int>();
+            simpleDataBase.AddNewData(13);
+            simpleDataBase.AddNewData(02);
+            simpleDataBase.AddNewData(20);
+            simpleDataBase.PrintAllData();
         }
     }
 }
